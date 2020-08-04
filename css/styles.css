@@ -1,0 +1,157 @@
+/*body*/
+body{
+  font-family: Montserrat;
+}
+/* title*/
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.navbar-brand{
+  margin-top: 10px;
+  font-size: 2.5rem;
+  font-family: Ubuntu;
+}
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 65px;
+  line-height: 1.5;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0px 15px;
+}
+.nav-link{
+  font-size: 1rem;
+}
+/*features*/
+#features{
+  padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+h3{
+  font-family: 'Montserrat-black', sans-serif;
+
+}
+.features{
+  width: 80%;
+  margin-left: 30px;
+  line-height: 25px;
+  word-spacing: 3px;
+  color: #8f8f8f;
+}
+.dog-para{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+ color: #ff4c68;
+}
+/*testimonials*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.lady-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/*press*/
+#press{
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+/*pricing*/
+.price-header{
+  text-align: center;
+ padding-bottom: 20px;
+  line-height: 50px;
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 50px;
+}
+.price-para{
+    font-size: 20px;
+}
+#pricing{
+  padding: 5% 15%;
+  text-align: center;
+}
+.row{
+  padding: 3% 2%;
+}
+.pricing{
+  font-weight: bold;
+}
+/*cta*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+  font-family: 'Montserrat-black', sans-serif;
+  color: #fff;
+
+}
+.cta-text{
+  font-size: 40px;
+  padding: 0% 20%;
+}
+/*footer*/
+#footer{
+  text-align: center;
+  padding: 5% 15%;
+}
+.fab{
+  margin: 0px 10px;
+}
+.fas{
+  margin: 0px 10px;
+}
+/*media code for different media*/
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .cta-text{
+    text-align: center;
+
+  }
+}
